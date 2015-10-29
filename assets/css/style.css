@@ -1,0 +1,24 @@
+.banner {
+	background:#d3d3d3;
+	height:auto;
+	min-height:420px;
+	padding-top:60px;
+}
+
+/* Navigation Styles */
+
+.navbar-header {
+	padding-top:20px;
+	background:#000;
+}
+
+.navigation {
+	padding-top:20px;
+	background:#000;
+}
+
+/* Font Styling */
+
+p {
+	font-size:20px;
+}
