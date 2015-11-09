@@ -1,24 +1,73 @@
 .banner {
-	background:#d3d3d3;
-	height:auto;
-	min-height:420px;
-	padding-top:60px;
+background:#e3e3e3;
+height:auto;
+min-height:420px;
+padding-top:60px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.homeimage {
+	margin-top:80px;
 }
 
 /* Navigation Styles */
 
+.logo {
+	
+}
+
 .navbar-header {
-	padding-top:20px;
-	background:#000;
+padding-top:20px;
+padding-bottom:20px;
+background:#2f2f2f;
+}
+
+.navbar-header > li > a {
+	color:#fff;
 }
 
 .navigation {
-	padding-top:20px;
-	background:#000;
+padding-top:20px;
+padding-bottom:20px;
+background:#2f2f2f;
 }
+
 
 /* Font Styling */
 
+body {
+-webkit-overflow-scrolling: touch;
+-webkit-font-smoothing: antialiased;
+background-color: #ffffff;
+color: #555;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 400;
+}
+
+a {
+    color: #5bb75b;
+    text-decoration: none;
+}
+
 p {
-	font-size:20px;
+font-size:16px;
+line-height:28px;
+margin-bottom:25px;
+text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+} 
+
+h1 {
+font-size:35px;
+margin-top:30px;
+margin-bottom:30px;
 }
